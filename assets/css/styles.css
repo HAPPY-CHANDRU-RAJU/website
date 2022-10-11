@@ -11023,9 +11023,11 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
+
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
+
 .social-icons .social-icon:hover {
   background-color: #1b255f;
 }
@@ -11043,8 +11045,17 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
+
 section.resume-section .resume-section-content {
   width: 100%;
+}
+
+@media (min-width: 575px) {
+  section.resume-section {
+
+    max-width: 100% !important;
+    width: 100% !important;
+  }
 }
 
 @media (min-width: 768px) {
