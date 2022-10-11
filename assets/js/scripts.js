@@ -39,3 +39,13 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+// 768 Maximum Screen Size
+$(function () {
+    if(window.innerWidth <= 768){
+        $("#mobileModal").modal({show: false,backdrop: 'static',keyboard: false});
+        $("#mobileModal").modal("show");   
+        $("#desktop").empty();
+    }
+});
+
+
