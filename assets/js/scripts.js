@@ -1,12 +1,3 @@
-/*!
-* Start Bootstrap - Resume v7.0.2 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
 $(function () {
   $('[data-toggle="tooltip"]').tooltip({
      html: true
@@ -39,7 +30,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-// 768 Maximum Screen Size
 $(function () {
     if(window.innerWidth <= 768){
         $("#mobileModal").modal({show: false,backdrop: 'static',keyboard: false});
