@@ -6,7 +6,7 @@ $(function () {
 
 window.addEventListener("DOMContentLoaded", (event) => {
   // Mobile screen block 
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth <= 995) {
     $("#mobileModal").modal({
       show: false,
       backdrop: "static",
