@@ -209,11 +209,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: orange;
   text-decoration: none;
 }
 a:hover {
-  color: #974a2d;
+  color: rgb(156, 102, 1);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -459,7 +459,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 0.8rem;
   font-weight: 300;
 }
 
@@ -4253,7 +4253,7 @@ textarea.form-control-lg {
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: orange;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -10947,15 +10947,19 @@ h1, .h1 {
 }
 
 p.lead {
-  font-size: 1.15rem;
+  font-size: 0.8rem;
   font-weight: 400;
+}
+
+.p.lead > br{
+  color:red
 }
 
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 #sideNav {
@@ -11142,6 +11146,10 @@ section.resume-section .resume-section-content {
     color: orange;
   }
   
+  .no-hover:hover{
+    color : #6c757d
+  }
+
   tr{
     height: 150px;
   }
@@ -11150,3 +11158,138 @@ section.resume-section .resume-section-content {
     color: orange;
     cursor: default;
   }
+
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap'); */
+
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #1b255f;
+  border-radius: 5px;
+  color: white;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    width: 3px;
+    height: 100%;
+  }
+
+  .main-middle {
+    opacity: 0;
+  }
+
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+.timeline-content-empty-right {
+  background: white;
+  color: #1b255f;
+  font-size: xx-large;
+  justify-self: right;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.timeline-content-empty-left {
+  background: white;
+  color: #1b255f;
+  font-size: xx-large;
+  justify-self: left;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.timeline-component > .h5 {
+  color: #fff
+}
+
+.timeline-component > p{
+    font-size: x-small;
+}
+
+.timeline-component> .subheading {
+  font-size: 0.92rem;
+  color: orange;
+}
+
+.skill-column {
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  border: 0px solid #ddd;
+  background-color: #fff;
+  height: 100%;
+}
+
+.subheading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.skill-column .subheading {
+  margin-bottom: 15px !important;
+  font-size: medium;
+}
+
+.skill-img {
+  height: 37px !important;
+}
+
+.skill-column>.subheading {
+  color: #48517f;
+  font-size: larger;
+}
+
+.skill-column>.subheading:hover {
+  color: #48517f;
+}
