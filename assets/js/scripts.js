@@ -4,8 +4,22 @@ $(function () {
   });
 });
 
+window.addEventListener("resize", (event) => {
+  if (window.innerWidth <= 995) {
+    $("#mobileModal").modal({
+      show: false,
+      backdrop: "static",
+      keyboard: false,
+    });
+    $("#mobileModal").modal("show");
+    $("#desktop").empty();
+  }else{
+    location.reload();
+  }
+});
+
 window.addEventListener("DOMContentLoaded", (event) => {
-  // Mobile screen block 
+  // Mobile screen block
   if (window.innerWidth <= 995) {
     $("#mobileModal").modal({
       show: false,
