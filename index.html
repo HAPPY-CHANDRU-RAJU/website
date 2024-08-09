@@ -1,622 +1,909 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
-        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous">
-        </script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
-        </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
-        </script>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Chandru Vinaygam - Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/img/logo.jpeg" />
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
 
-<body id="page-top">
+  <body id="page-top">
     <!-- Modal -->
-    <div class="modal" id="mobileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        style="display: none;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header" style="display: table-row-group;">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">Chandru Vinayagam - Portfolio</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Please Open this Site in your Laptop/ Computer.<br />Sorry for the inconvenience</p>
-                </div>
-            </div>
+    <div
+      class="modal"
+      id="mobileModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      style="display: none"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="display: table-row-group">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">
+              Chandru Vinayagam - Portfolio
+            </h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              Please Open this Site in your Laptop/ Computer.<br />Sorry for the inconvenience
+            </p>
+          </div>
         </div>
+      </div>
     </div>
     <div id="desktop">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Chandru V</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                        src="assets/img/logo.jpeg" alt="Profile picture" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-                    </li>
-                </ul>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+        id="sideNav"
+      >
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <span class="d-block d-lg-none">Chandru V</span>
+          <span class="d-none d-lg-block"
+            ><img
+              class="img-fluid img-profile rounded-circle mx-auto mb-2"
+              src="assets/img/logo.jpeg"
+              alt="Profile picture"
+          /></span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#education"
+                >Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#interests"
+                >Interests</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#experience"
+                >Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#awards"
+                >Awards & Certifications</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid p-0">
+        <section class="resume-section" id="about">
+          <div class="resume-section-content">
+            <div class="mb-0 h2">
+              Chandru
+              <span class="text-primary">Vinayagam</span>
             </div>
-        </nav>
-        <div class="container-fluid p-0">
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Chandru
-                        <span class="text-primary">Vinayagam</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        Uttarahalli, Bengaluru, Karnataka 560062 <br />
-                        +91 9902483192 <br />
-                        <a href="mailto:chandru.vinayagam21@gmail.com">chandru.vinayagam21@gmail.com</a>
-                    </div>
-                    <p class="lead mb-5">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm currently working as SDE in More Retail
-                        Private Limited, I have completed my Bachelor degree in Computer science and Engg from
-                        <a href="http://www.msrit.edu/" target="_blank">M S Ramaiah Institute of Technology,
-                            bangalore</a>. I already completed my diploma at
-                        <a href="http://www.apspolytechnic.co.in/" target="_blank">Acharya patashala polytechnic,
-                            Bangalore</a>. And Using this website you can access my projects for demo. Any
-                        suggestions and feedback just ping me using below links, Anytime.
-                        I'll try to reply for your response as soon as possible. Also For
-                        collaboration or development. Find out more about me & feel free
-                        to connect with me here:
-                    </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/chandru-vinayagam/"
-                            target="_blank"><img src="assets/img/in.png" style="height: 33px" /></a>
-                        <a class="social-icon" href="http://github.com/HAPPY-CHANDRU-RAJU" target="_blank"><img
-                                src="assets/img/gh.png" style="height: 33px" /></a>
-                        <a class="social-icon" href="mailto:chandru.vinayagam21@gmail.com" target="_blank"><img
-                                src="assets/img/gm.png" style="height: 33px" /></a>
-                        <a class="social-icon" href="https://wa.me/919902483192" target="_blank"><img
-                                src="assets/img/wa.png" style="height: 33px" /></a>
-                        <a class="social-icon" href="http://www.facebook.com/chandru.raju.545" target="_blank"><img
-                                src="assets/img/fb.png" style="height: 33px" /></a>
-                        <a class="social-icon" href="http://www.instagram.com/happy_chandru_raju" target="_blank"><img
-                                src="assets/img/ig.png" style="height: 33px" /></a>
-                        <a class="social-icon"
-                            href="https://google.qwiklabs.com/public_profiles/60be271f-b558-4ffb-a54a-62f88ed0c8ad"
-                            target="_blank"><img src="assets/img/gcp.png" style="height: 33px" /></a>
-                    </div>
-                    <!-- <center>
+            <div class="subheading no-hover mb-3">
+              <a href="mailto:chandru.vinayagam21@gmail.com">chandru.vinayagam21@gmail.com</a><br />
+              Bengaluru, Karnataka 560062 <br />
+              +91 9902483192
+            </div>
+            <p class="lead mb-5">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello there! 👋 I'm Chandru Vinayagam, a passionate Software Development Engineer with expertise in Full Stack
+              Development, Python, and Scripting. 
+              <br /><br />
+              🚀 With a Bachelor's degree in Computer Science and Engineering, I've been honing my skills in the information technology
+              and services industry. My journey has led me to tackle exciting challenges in UI/UX Design, Web Development, and Java,
+              among other domains. 🌐
+              <br /><br />I'm driven by a relentless curiosity for emerging technologies and their real-world applications. I believe in the power
+              of automation scripts to streamline processes and boost efficiency. My experience in Software Project Management has
+              taught me the importance of delivering quality products while keeping a sharp focus on timelines and objectives. 🎯
+              <br /><br /> During my time at More Retail Private Limited and Olcademy, I've had the privilege of contributing to cutting-edge
+              projects and leading front-end development teams. 🏆 I take pride in crafting user-friendly interfaces that enhance the
+              overall user experience. Additionally, my proficiency in Python and Java has allowed me to create robust and scalable
+              solutions. 🛠️
+              <br /><br />Having worked on diverse web development projects, I've accumulated 3+ years of experience, and I'm always eager to take
+              on new and exciting ventures. At <a href="http://www.apspolytechnic.co.in/" target="_blank"></a>APS Polytechnic</a>, I received a recommendation letter from the Principal for my
+              dedication and innovative contributions. 📜
+              <br /><br />When I'm not coding, you can find me exploring the latest advancements in Artificial Intelligence and staying updated on
+              industry trends. Apart from my technical pursuits, I'm fluent in multiple languages, including Tamil, Telugu, and
+              Kannada. 🌍
+              <br />
+              <br/>If you're looking to collaborate on exciting projects or discuss anything tech-related, feel free to reach out. Let's
+              connect and explore the possibilities together! 🤝
+            </p>
+            <div class="social-icons">
+              <a
+                class="social-icon"
+                href="https://www.linkedin.com/in/chandru-vinayagam/"
+                target="_blank"
+                ><img src="assets/img/in.png" style="height: 33px"
+              /></a>
+              <a
+                class="social-icon"
+                href="http://github.com/HAPPY-CHANDRU-RAJU"
+                target="_blank"
+                ><img src="assets/img/gh.png" style="height: 33px"
+              /></a>
+              <a
+                class="social-icon"
+                href="mailto:chandru.vinayagam21@gmail.com"
+                target="_blank"
+                ><img src="assets/img/gm.png" style="height: 33px"
+              /></a>
+              <a
+                class="social-icon"
+                href="https://wa.me/919902483192"
+                target="_blank"
+                ><img src="assets/img/wa.png" style="height: 33px"
+              /></a>
+              <a
+                class="social-icon"
+                href="http://www.facebook.com/chandru.raju.545"
+                target="_blank"
+                ><img src="assets/img/fb.png" style="height: 33px"
+              /></a>
+              <a
+                class="social-icon"
+                href="http://www.instagram.com/happy_chandru_raju"
+                target="_blank"
+                ><img src="assets/img/ig.png" style="height: 33px"
+              /></a>
+              <a
+                class="social-icon"
+                href="https://google.qwiklabs.com/public_profiles/60be271f-b558-4ffb-a54a-62f88ed0c8ad"
+                target="_blank"
+                ><img src="assets/img/gcp.png" style="height: 33px"
+              /></a>
+            </div>
+            <!-- <center>
                         <a href="assets/docs/Chandru_Vinayagam.pdf" target="_blank">
                             <button class="btn-resume disabled" disabled>
                                 Download My Resume
                             </button>
                         </a>
                     </center> -->
+          </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section design-section" id="education">
+          <div class="resume-section-content">
+            <div class="mb-5 h3 text-primary">Education</div>
+              <div class="timeline">
+                <div class="timeline-content-empty-right">
+                  <div class="subheading">
+                    2024
+                  </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 text-primary">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">M S Ramaiah Institute of Technology</h3>
-                            <div class="subheading">
-                                B.E in Computer Science and Engineering
-                            </div>
-                            <p>CGPA: 7.97</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">August 2019 - August 2022</span>
-                        </div>
-                    </div>
-                    <br />
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Acharya patashala polytechnic</h3>
-                            <div class="subheading">
-                                Diploma in Computer Science and Engineering
-                            </div>
-                            <p>Percentage: 83.18%</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">August 2016 - June 2019</span>
-                        </div>
-                    </div>
-                    <br />
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Shree Shyla Vidya Samsthe</h3>
-                            <div class="subheading">SSLC</div>
-                            <p>Percentage: 81.79%</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">August 2015 - June 2016</span>
-                        </div>
-                    </div>
+
+                <div class="timeline-middle">
+                  <div class="timeline-circle"></div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <!--
-                    <h2 class="mb-5 text-primary">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages </div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><div class="icons8-java"></div></li>
-                        <li class="list-inline-item"><div class="icons8-python"></div></li>
-                        <li class="list-inline-item"><div class="icons8-node-js"></div></li>
+
+                <div class="timeline-component timeline-content">
+                  <span class="mb-0 h5">Narsee Monjee Institute of Management Studies (NMIMS) Global</span>
+                  <div class="subheading">
+                    MBA in Information Technology and System Management
+                  </div>
+                </div>
+
+                <div class="timeline-component timeline-content">
+                  <span class="mb-0 h5">M S Ramaiah Institute of Technology</span>
+                  <div class="subheading">
+                    B.E in Computer Science and Engineering
+                  </div>
+                  <!-- <p>CGPA: 7.97</p> -->
+                </div>
+
+                <div class="timeline-middle">
+                  <div class="timeline-circle"></div>
+                </div>
+
+                <div class="timeline-content-empty-left">
+                  <div class="subheading">
+                    2022
+                  </div>
+                </div>
+
+                <div class="timeline-content-empty-right">
+                  <div class="subheading">
+                    2019
+                  </div>
+                </div>
+
+                <div class="timeline-middle">
+                  <div class="timeline-circle"></div>
+                </div>
+
+                <div class="timeline-component timeline-content">
+                  <div class="mb-0 h5">Acharya patashala polytechnic</div>
+                  <div class="subheading">
+                    Diploma in Computer Science and Engineering
+                  </div>
+                  <!-- <p>Percentage: 83.18%</p> -->
+                </div>
+
+                <div class="timeline-component timeline-content">
+                  <div class="mb-0 h5">Shree Shyla Vidya Samsthe</div>
+                  <div class="subheading">SSLC</div>
+                  <!-- <p>Percentage: 81.79%</p> -->
+                </div>
+                
+                <div class="timeline-middle">
+                  <div class="timeline-circle"></div>
+                </div>
+
+                <div class="timeline-content-empty-left">
+                  <div class="subheading">
+                    2016
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section" id="skills">
+          <div class="resume-section-content">
+            <div class="mb-5 text-primary h3">Technology Skills</div>
+              <div class="row no-gutters">
+                <div class="col-sm-3 skill-column">
+                  <div class="subheading mb-3">Programming Languages</div>
+                  <img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" alt="python" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="java" class="skill-img">
+                </div>
+                <div class="col-sm-3 skill-column">
+                  <div class="subheading mb-3">Frontend Development</div>
+                  <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html5" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="css3" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="javascript"
+                    class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="bootstrap" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="react" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/jquery/jquery-horizontal.svg" alt="jquery" class="skill-img">
+                </div>
+                <div class="col-sm-3 skill-column">
+                  <div class="subheading mb-3">Backend Development</div>
+                  <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="python" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" alt="nodejs" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/php/php-horizontal.svg" alt="php" class="skill-img">
+                </div>
+                <div class="col-sm-3 skill-column">
+                  <div class="subheading mb-3">Database</div>
+                  <img src="https://www.vectorlogo.zone/logos/phpmyadmin/phpmyadmin-ar21.svg" alt="phpmyadmin" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" alt="mongodb" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="mysql" class="skill-img">
+                </div>
+              </div>
+              <div class="row no-gutters">
+                <div class="col-sm-3 skill-column">
+                  <div class="subheading mb-3">Devops</div>
+                  <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg" alt="aws" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" class="skill-img">
+                </div>
+                <div class="col-sm-3 skill-column">
+                  <div class="subheading mb-3">Framework</div>
+                  <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="fastapi" style="height: 37px;" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" alt="flask" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="50" class="skill-img">
+                </div>
+                <div class="col-sm-3 skill-column">
+                  <div class="subheading mb-3">Testing</div>
+                  <img src="https://www.edureka.co/blog/wp-content/uploads/2017/06/selenium.png" alt="selenium" width="80" height="50"
+                    class="skill-img">
+                </div>
+                <div class="col-sm-3 skill-column">
+                  <div class="subheading mb-3">Software / Other</div>
+                  <img src="https://www.vectorlogo.zone/logos/figma/figma-ar21.svg" alt="figma" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg" alt="linux" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" class="skill-img">
+                  <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg" alt="jira" class="skill-img">
+                  <img src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png" alt="vscode" class="skill-img">
+                  <img
+                    src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-terminal-computer-programming-flaticons-flat-flat-icons.png"
+                    alt="terminal" class="skill-img">
+                </div>
+              </div>
+          </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section" id="interests">
+          <div class="resume-section-content">
+            <div class="mb-5 h3 text-primary">Interests</div>
+            <p>
+              Hello there! 👋 I'm Chandru Vinayagam, a passionate Software Development Engineer with a love for coding and
+              exploration. Beyond my professional life, I find joy in outdoor adventures and photography, capturing the beauty of
+              the world around me. 📸
+            </p>
+            <p class="mb-0">
+              When indoors, I'm often immersed in sci-fi and fantasy movies and TV shows, drawing inspiration from their imaginative
+              worlds. I'm also an aspiring chef, experimenting with culinary creations that excite the palate. 🍳 My curiosity
+              extends to the latest technological advancements, particularly in Artificial Intelligence, where I constantly seek to
+              stay ahead of industry trends. 🌐
+            </p>
+          </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section" id="experience">
+          <div class="resume-section-content">
+            <div class="mb-5 h3 text-primary">Experience</div>
+            <div class="experience-timeline">
+             
+              <div class="experience-timeline-middle">
+                <div class="experience-timeline-circle"></div>
+              </div>
+            
+              <div class="experience-timeline-component experience-timeline-content">
+                <span class="mb-0 h5">More Retail Private Limited</span>
+                <div class="job-role">
+                  <div class="subheading">
+                    <span>Development Engineer I - Full Stack Development</span>
+                    <span>Aug 2023 - Present | Bengaluru, India</span></div>
+                  <div>
+                    <ul class="responsibility">
+                      <li class="custom-icon">Developed POS systems tailored for supermarkets and hypermarkets, optimising checkout processes and providing
+                      real-time sales insights.</li>
+                      <li class="custom-icon">Contributed to IVR campaigns development for automated customer communication.</li>
+                      <li class="custom-icon">Implemented cross-channel coupon distribution systems via SMS and WhatsApp.</li>
+                      <li class="custom-icon">Played a key role in evolving the MorePoints loyalty program, driving customer retention and lifetime value. </li>
+                      <li class="custom-icon">Contributed to the development of Planogram 1.0 for optimising store layout and product visibility. </li>
                     </ul>
-                    <div class="subheading mb-3">Web Technologies </div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/css3.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/bootstrap.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/react-native.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/offices/30/000000/php-logo.png" style="height: 50px;"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/fluency/48/000000/mysql-logo.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/></li>
+                  </div>
+                </div>
+
+                <div class="job-role">
+                  <div class="subheading">
+                    Graduate Engineer Trainee
+                   </span>
+                    <span>Aug 2022 - Aug 2023 | Bengaluru, India</div>
+                  <div>
+                    <ul class="responsibility">
+                      <li class="custom-icon">Spearheaded WhatsApp marketing campaigns, engaging customers with personalised promotions and feedback collection.</li>
+                      <li class="custom-icon">Designed and deployed an interactive WhatsApp-based eNPS chatbot, improving customer satisfaction and loyalty.</li>
+                      <li class="custom-icon">Conceptualised Smart QR-based Offer Baskets, enhancing customer engagement and driving sales.</li>
+                      <li class="custom-icon">Developed interactive invoice bill generation systems for personalised offers and promotions.</li>
                     </ul>
-                    <div class="subheading mb-3">Tools and Others </div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/git.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/glyph-neue/64/000000/github.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/gitlab.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-terminal-computer-programming-flaticons-flat-flat-icons.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/stackoverflow.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/windows-logo.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/linux--v1.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/inspect-code.png"/></li
-                        <li class="list-inline-item"><img src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png"/></li>
-                        <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/chrome--v1.png"/></li>
-                        <li class="list-inline-item"><img src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8" style="height: 40px;"></li>
+                  </div>
+                </div>
+
+                <div class="job-role">
+                  <div class="subheading">
+                    Software Development Engineer - Intern
+                   </span>
+                    <span>Apr 2022 - Jul 2022 | Bengaluru, India</div>
+                  <div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience-timeline-middle">
+                <div class="experience-timeline-circle"></div>
+              </div>
+
+              <div class="experience-timeline-component experience-timeline-content">
+                <span class="mb-0 h5">Happie Webs and Tech</span>
+                <div class="job-role">
+                  <div class="subheading">
+                    <span>Co-Founder and CTO</span>
+                    <span>May 2018 - Feb 2022 | Bengaluru, India</span>
+                  </div>
+                  <div>
+                    <ul class="responsibility">
+                      <li class="custom-icon">Led the technical development and implementation of Happie Webs and Tech's proprietary platform, leveraging cutting-edge
+                      technologies to deliver scalable and high-performance solutions.</li>
+                      <li class="custom-icon">Partnered with diverse clients to deliver bespoke web development and graphic design solutions tailored to their
+                      unique brand identities and objectives.</li>
+                      <li class="custom-icon">Designed and developed visually stunning websites that prioritise user experience and engagement, resulting in
+                      increased traffic and conversions.</li>
+                      <li class="custom-icon">Leveraged cutting-edge technologies and design trends to deliver innovative solutions that exceed client
+                      expectations.</li>
+                      <li class="custom-icon">Provided ongoing support and maintenance to ensure the continued success and optimisation of client websites and
+                      digital assets.</li>
                     </ul>
-                    -->
-
-                    <h2 class="mb-5 text-primary">Technology Skills</h2>
-
-                    <table border="0" style="width: 100%">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="subheading mb-3">Programming Languages</div>
-                                    <img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" alt="python" />
-                                    <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="java" />
-                                </td>
-                                <td>
-                                    <div class="subheading mb-3">Frontend Development</div>
-                                    <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
-                                        alt="html5" />
-                                    <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="css3" />
-                                    <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg"
-                                        alt="javascript" />
-                                    <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"
-                                        alt="bootstrap" />
-                                    <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="react" />
-                                    <img src="https://www.vectorlogo.zone/logos/jquery/jquery-horizontal.svg"
-                                        alt="jquery" />
-                                </td>
-                                <td>
-                                    <div class="subheading mb-3">Backend Development</div>
-                                    <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg"
-                                        alt="nodejs" />
-                                    <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"
-                                        alt="express" />
-                                    <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"
-                                        alt="python" />
-                                    <img src="https://www.vectorlogo.zone/logos/php/php-horizontal.svg" alt="php" />
-                                </td>
-                                <td>
-                                    <div class="subheading mb-3">Database</div>
-                                    <img src="https://www.vectorlogo.zone/logos/phpmyadmin/phpmyadmin-ar21.svg"
-                                        alt="phpmyadmin" />
-                                    <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
-                                        alt="mongodb" />
-                                    <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg"
-                                        alt="mysql" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="subheading mb-3">Devops</div>
-                                    <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
-                                        alt="gcp" />
-                                </td>
-                                <td>
-                                    <div class="subheading mb-3">Framework</div>
-                                    <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"
-                                        alt="flask" />
-                                    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
-                                        alt="tensorflow" width="40" height="50" />
-                                </td>
-                                <td>
-                                    <div class="subheading mb-3">Testing</div>
-                                    <img src="https://www.edureka.co/blog/wp-content/uploads/2017/06/selenium.png"
-                                        alt="selenium" width="80" height="50" />
-                                </td>
-                                <td>
-                                    <div class="subheading mb-3">Software / Other</div>
-                                    <img src="https://www.vectorlogo.zone/logos/figma/figma-ar21.svg" alt="figma" />
-                                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" />
-                                    <img src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg" alt="linux" />
-                                    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-                                        alt="postman" />
-                                    <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg"
-                                        alt="jira" />
-                                    <img src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png"
-                                        alt="vscode" />
-                                    <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-terminal-computer-programming-flaticons-flat-flat-icons.png"
-                                        alt="terminal" />
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                  </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 text-primary">Interests</h2>
-                    <p>
-                        Apart from being a coding enthusiast, I enjoy most of my time
-                        being outdoors. and also I am a photographer.
-                    </p>
-                    <p class="mb-0">
-                        When forced indoors, I follow a number of sci-fi and fantasy genre
-                        movies and television shows, I am an aspiring chef, and I spend a
-                        large amount of my free time exploring the latest technology
-                        advancements in the development world.
-                    </p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 text-primary">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <img src="assets/img/exp.png" class="explogo" />
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">SDE I</h3>
-                            <div class="subheading mb-3">More Retail Private Limited</div>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">August 2022 - Present</span>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <img src="assets/img/exp.png" class="explogo" />
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">SDE - Intern</h3>
-                            <div class="subheading mb-3">More Retail Private Limited</div>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">April 2022 - July 2022</span>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <img src="assets/img/exp.png" class="explogo" />
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Front Lead - Web Developer Intern</h3>
-                            <div class="subheading mb-3">Olcademy</div>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">August 2020 - February 2021</span>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <img src="assets/img/exp.png" class="explogo" />
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Engineering Intern</h3>
-                            <div class="subheading mb-3">More Retail Private Limited</div>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">April 2022 - Present </span>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <img src="assets/img/exp.png" class="explogo" />
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer - Part time</h3>
-                            <div class="subheading mb-3">Acharya Patashala Polytechnic</div>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">April 2017 - March 2021</span>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <img src="assets/img/exp.png" class="explogo" />
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Freelancer</div>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">February 2020 - Present </span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="text-primary">Projects</h2>
-                    <div class="col-sm-12 col-lg-12 col-md-12" style="display: inline-flex; justify-content: center">
-                        <div class="card" style="width: 18rem; margin: 5px" data-toggle="tooltip" data-html="true"
-                            rel="tooltip"
-                            title="<div style='background-color: #000'>Based on cloud computing, A social media networking for polytechnics colleges within Karnataka. The main aim is to share Events & Board circulars with colleges, students through a web application. The College can share inter college events and Exhibitions with other college students. This application developed using HTML, CSS, Javascript, PHP, Bootstrap Framework, Ajax and Jquery.</div>">
-                            <img src="assets/img/wd.webp" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h3 class="mb-0">Circle Chat - Social Networking</h3>
-                                <hr />
-                                <div class="tech-stack">
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/css3.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/offices/30/000000/php-logo.png"
-                                            style="height: 50px" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/fluency/48/000000/mysql-logo.png" />
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
+              </div>
 
-                        <div class="card" style="width: 18rem; margin: 5px" data-toggle="tooltip" data-html="true"
-                            rel="tooltip"
-                            title="<div style='background-color: #000'>To conduct online lab and Quiz exams for the students. Lab exams can be conducted on programming languages like Python3, Java and C Language. The Exam conducted with Timer, Full Screen, Auto Answer Saver and Screen responsiveness, with Dynamic Admin Dashboard. This application developed using PHP, HTML, CSS, Shell( Bash ), Bootstrap v3.0 framework, Ajax, and Jquery.</div>">
-                            <img src="assets/img/wd-2.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h3 class="mb-0">
-                                    Online Exam Management with Analysis ( Lab / MCQ )
-                                </h3>
-                                <hr />
-                                <div class="tech-stack">
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/css3.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/offices/30/000000/php-logo.png"
-                                            style="height: 50px" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/fluency/48/000000/mysql-logo.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/linux--v1.png" />
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
+              <div class="experience-timeline-middle">
+                <div class="experience-timeline-circle"></div>
+              </div>
 
-                        <div class="card" style="width: 18rem; margin: 5px" data-toggle="tooltip" data-html="true"
-                            rel="tooltip"
-                            title="<div style='background-color: #000'>Capturing vehicles in video sequence from surveillance cameras is a demanding application to improve tracking performance. The application is developed to increase and ease traffic monitoring. The aim is to build an automatic system that can accurately localise and track vehicles that appear in aerial video frames which violate rules and Detect using YoloV3 and tensorflow.</div>">
-                            <img src="assets/img/vs.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h3 class="mb-0">
-                                    Identification of Traffic Rules Violation using Video
-                                    Analytics on Cloud
-                                </h3>
-                                <hr />
-                                <div class="tech-stack">
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/python--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/tensorflow.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/linux--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/add-to-database.png" />
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-12 col-md-12" style="display: inline-flex; justify-content: center">
-                        <div class="card" style="width: 18rem; margin: 5px" data-toggle="tooltip" data-html="true"
-                            rel="tooltip"
-                            title="<div style='background-color: #000'>A web app in which a user enters a link and receives a different URL in response, which when visited, redirects the user to the original URL. Because the URL is so lengthy. Something like TinyURL. The Application developed using MERN Stack.</div>">
-                            <img src="assets/img/mern.webp" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h3 class="mb-0">RC URL Shortener</h3>
-                                <hr />
-                                <div class="tech-stack">
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/mongodb.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/react-native.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/fluency/48/000000/node-js.png" />
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card tooltip-righ" style="width: 18rem; margin: 5px" data-toggle="tooltip"
-                            data-html="true" rel="tooltip"
-                            title="<div style='background-color: #000'>APS Polytechnic college official website <b>(2017 - 2022)</b>. </div>">
-                            <img src="assets/img/apsport.png" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h3 class="mb-0">Diploma College Website</h3>
-                                <p>
-                                    (<a href="http://www.apspolytechnic.co.in/" target="_blank">
-                                        visit now</a>
-                                    )
-                                </p>
-                                <hr />
-                                <div class="tech-stack">
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/css3.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card tooltip-righ" style="width: 18rem; margin: 5px" data-toggle="tooltip"
-                            data-html="true" rel="tooltip"
-                            title="<div style='background-color: #000'>This spell check tool predicts the word the user intended to write down by trying to combine smart data structures and algorithms with established dictionary definitions to find the  misspelling word and recommend similar words with different distance metrics like Levenshtein distance metric</div>">
-                            <img src="assets/img/apsport.png" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h3 class="mb-0">Kannada Spell Check Tool -</h3>
-                                <hr />
-                                <div class="tech-stack">
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/python--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/stickers/48/api-settings.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/css3.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" />
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 text-primary">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Awarded Software Engineering Virtual Experience from “<b>JP Morgan</b>”.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Rewarded 12 skill badges and 24 Quests badges from “<b>Google Cloud Program</b>”.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Awarded Software
-                            Engineering Virtual Experience from
-                            “<b>Accenture</b>”.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Awarded Software
-                            Engineering Virtual Experience from “<b>Goldman Sachs</b>”.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Awarded with 5 Star skill completion from “<b>HackerRank</b>”
-                            for Problem Solving and Python .
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Awarded course
-                            completion certificate from
-                            <br />“<b>Coursera</b>” for Python courses offered by University
-                            of Michigan. <br />“<b>Udemy</b>” for Web Development
-                            Masterclass, PHP & JavaScript. <br />“<b>Saylor Academy</b>” for
-                            Computer Network. <br />“<b>University of Helsinki</b>” for
-                            Elements of Artificial Intelligence.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Secured a rank of 872
-                            in <b>Scaler CodeX competition</b>.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Secured a rank of 8426
-                            in <b>Google HashCode 2021</b> in
-                            Qualifier round.
-                        </li>
+              <div class="experience-timeline-component experience-timeline-content">
+                <span class="mb-0 h5">APS Polytechnic</span>
+                <div class="job-role">
+                  <div class="subheading">
+                    <span> Full Stack Developer - Internship </span>
+                    <span>Apr 2017 - Mar 2021 | Bengaluru, India</span>
+                  </div>
+                  <div>
+                    <ul class="responsibility">
+                      <li class="custom-icon">Designed and Developed Website .</li>
+                      <li class="custom-icon">3.2+ years experience in web development and website maintenance.</li>
+                      <li class="custom-icon">Awarded with a recommendation letter from the Principal of the institution.</li>
                     </ul>
+                  </div>
                 </div>
-            </section>
-        </div>
+              </div>
+
+              <div class="experience-timeline-middle">
+                <div class="experience-timeline-circle"></div>
+              </div>
+
+              <div class="experience-timeline-component experience-timeline-content">
+                <span class="mb-0 h5">Olcademy</span>
+                <div class="job-role">
+                  <div class="subheading">
+                    <span>Web Developer - Front End Lead </span>
+                    <span>Oct 2020 - Feb 2021 | Remote ( Mumbai, India ) </span>
+                  </div>
+                  <div>
+                    <ul class="responsibility">
+                      <li class="custom-icon">Solved UI / UX related bugs in the website and designed UI for new web pages.</li>
+                      <li class="custom-icon">Review and Improved interface designs in the websites.</li>
+                      <li class="custom-icon">Maintained and Lead Front end developers and reported team progress.</li>
+                      <li class="custom-icon">Awarded with a recommendation letter for the “overall performance” from the CTO of the company.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="job-role">
+                  <div class="subheading">
+                    <span>Web Developer - Front End </span>
+                    <span>Aug 2020 - Oct 2020 | Remote ( Mumbai, India )</span> 
+                  </div>
+                  <div>
+                    <ul class="responsibility">
+                      <li class="custom-icon">Solving UI bugs in the website, designed web pages and updated contents.</li>
+                      <li class="custom-icon">Improved interface designs in the websites.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section" id="projects">
+          <div class="resume-section-content">
+            <div class="text-primary h3">Projects</div>
+            <div
+              class="col-sm-12 col-lg-12 col-md-12"
+              style="display: inline-flex;
+                    justify-content: space-around;
+                    align-content: center;
+                    flex-wrap: nowrap;"
+            >
+              <div
+                class="card"
+                style="width: 18rem; margin: 5px"
+                data-toggle="tooltip"
+                data-html="true"
+                rel="tooltip"
+                title="<div style='background-color: #000'>Based on cloud computing, A social media networking for polytechnics colleges within Karnataka. The main aim is to share Events & Board circulars with colleges, students through a web application. The College can share inter college events and Exhibitions with other college students. This application developed using HTML, CSS, Javascript, PHP, Bootstrap Framework, Ajax and Jquery.</div>"
+              >
+                <img src="assets/img/wd.webp" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <div class="mb-0 h4" style="height: 5rem;" >Circle Chat - Social Networking</div>
+                  <hr />
+                  <div class="tech-stack">
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/css3.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/bootstrap.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/offices/30/000000/php-logo.png"
+                        style="height: 50px"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/fluency/48/000000/mysql-logo.png"
+                      />
+                    </li>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card"
+                style="width: 18rem; margin: 5px"
+                data-toggle="tooltip"
+                data-html="true"
+                rel="tooltip"
+                title="<div style='background-color: #000'>To conduct online lab and Quiz exams for the students. Lab exams can be conducted on programming languages like Python3, Java and C Language. The Exam conducted with Timer, Full Screen, Auto Answer Saver and Screen responsiveness, with Dynamic Admin Dashboard. This application developed using PHP, HTML, CSS, Shell( Bash ), Bootstrap v3.0 framework, Ajax, and Jquery.</div>"
+              >
+                <img src="assets/img/wd-2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <div class="mb-0 h4" style="height: 5rem;" > Online Exam Management with Analysis ( Lab / MCQ ) </div>
+                  <hr />
+                  <div class="tech-stack">
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/css3.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/bootstrap.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/offices/30/000000/php-logo.png"
+                        style="height: 50px"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/fluency/48/000000/mysql-logo.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/ios-filled/50/000000/jquery.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/linux--v1.png"
+                      />
+                    </li>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card"
+                style="width: 18rem; margin: 5px"
+                data-toggle="tooltip"
+                data-html="true"
+                rel="tooltip"
+                title="<div style='background-color: #000'>Capturing vehicles in video sequence from surveillance cameras is a demanding application to improve tracking performance. The application is developed to increase and ease traffic monitoring. The aim is to build an automatic system that can accurately localise and track vehicles that appear in aerial video frames which violate rules and Detect using YoloV3 and tensorflow.</div>"
+              >
+                <img src="assets/img/vs.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <div class="mb-0 h4" style="height: 5rem;">
+                    Identification of Traffic Rules Violation using Video
+                    Analytics on Cloud
+                  </div>
+                  <hr />
+                  <div class="tech-stack">
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/python--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/tensorflow.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/linux--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/ios-filled/50/000000/add-to-database.png"
+                      />
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-lg-12 col-md-12"
+              style="display: inline-flex;
+                    justify-content: space-around;
+                    align-content: center;
+                    flex-wrap: nowrap;"
+            >
+              <div
+                class="card"
+                style="width: 18rem; margin: 5px"
+                data-toggle="tooltip"
+                data-html="true"
+                rel="tooltip"
+                title="<div style='background-color: #000'>A web app in which a user enters a link and receives a different URL in response, which when visited, redirects the user to the original URL. Because the URL is so lengthy. Something like TinyURL. The Application developed using MERN Stack.</div>"
+              >
+                <img
+                  src="assets/img/mern.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="mb-0 h4" style="height: 5rem;">RC URL Shortener</div>
+                  <hr />
+                  <div class="tech-stack">
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/mongodb.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/react-native.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/fluency/48/000000/node-js.png"
+                      />
+                    </li>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card tooltip-righ"
+                style="width: 18rem; margin: 5px"
+                data-toggle="tooltip"
+                data-html="true"
+                rel="tooltip"
+                title="<div style='background-color: #000'>APS Polytechnic college official website <b>(2017 - 2022)</b>. </div>"
+              >
+                <img
+                  src="assets/img/apsport.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="mb-0 h4" style="height: 5rem;">Diploma College Website</div>
+                  <hr />
+                  <div class="tech-stack">
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/css3.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/bootstrap.png"
+                      />
+                    </li>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card tooltip-righ"
+                style="width: 18rem; margin: 5px"
+                data-toggle="tooltip"
+                data-html="true"
+                rel="tooltip"
+                title="<div style='background-color: #000'>This spell check tool predicts the word the user intended to write down by trying to combine smart data structures and algorithms with established dictionary definitions to find the  misspelling word and recommend similar words with different distance metrics like Levenshtein distance metric</div>"
+              >
+                <img
+                  src="assets/img/apsport.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="mb-0 h4" style="height: 5rem;">Kannada Spell Check Tool - Sysmpell Algorithm</div>
+                  <hr />
+                  <div class="tech-stack">
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/python--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/stickers/48/api-settings.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/css3.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/ios-filled/50/000000/jquery.png"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <img
+                        src="https://img.icons8.com/color/48/000000/bootstrap.png"
+                      />
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section" id="awards">
+          <div class="resume-section-content">
+            <div class="mb-5 text-primary h3">Awards & Certifications</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <span class="fa-li"
+                  ><i class="fas fa-trophy text-warning"></i
+                ></span>
+                Awarded Software Engineering Virtual Experience from “<b
+                  >JP Morgan</b
+                >”.
+              </li>
+              <li>
+                <span class="fa-li"
+                  ><i class="fas fa-trophy text-warning"></i
+                ></span>
+                Rewarded 12 skill badges and 24 Quests badges from “<b
+                  >Google Cloud Program</b
+                >”.
+              </li>
+              <li>
+                <span class="fa-li"
+                  ><i class="fas fa-trophy text-warning"></i></span
+                >Awarded Software Engineering Virtual Experience from
+                “<b>Accenture</b>”.
+              </li>
+              <li>
+                <span class="fa-li"
+                  ><i class="fas fa-trophy text-warning"></i></span
+                >Awarded Software Engineering Virtual Experience from “<b
+                  >Goldman Sachs</b
+                >”.
+              </li>
+              <li>
+                <span class="fa-li"
+                  ><i class="fas fa-trophy text-warning"></i
+                ></span>
+                Awarded with 5 Star skill completion from “<b>HackerRank</b>”
+                for Problem Solving and Python .
+              </li>
+              <li>
+                <span class="fa-li"
+                  ><i class="fas fa-trophy text-warning"></i></span
+                >Awarded course completion certificate from
+                <br />“<b>Coursera</b>” for Python courses offered by University
+                of Michigan. <br />“<b>Udemy</b>” for Web Development
+                Masterclass, PHP & JavaScript. <br />“<b>Saylor Academy</b>” for
+                Computer Network. <br />“<b>University of Helsinki</b>” for
+                Elements of Artificial Intelligence.
+              </li>
+              <li>
+                <span class="fa-li"
+                  ><i class="fas fa-trophy text-warning"></i></span
+                >Secured a rank of 872 in <b>Scaler CodeX competition</b>.
+              </li>
+              <li>
+                <span class="fa-li"
+                  ><i class="fas fa-trophy text-warning"></i></span
+                >Secured a rank of 8426 in <b>Google HashCode 2021</b> in
+                Qualifier round.
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
