@@ -8,4 +8,3 @@ This was a website built to showcase my Technical skills, Experience, Projects, 
 - Git
 - GitHub
 - Bootstrap 
-
