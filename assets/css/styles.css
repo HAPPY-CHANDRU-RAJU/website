@@ -541,9 +541,11 @@ progress {
 
 .list-inline-item {
   display: inline-block;
+  padding: 0px;
 }
 .list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 0rem;
+  display: contents;
 }
 
 .initialism {
@@ -11118,6 +11120,7 @@ section.resume-section .resume-section-content {
    color: #000;
    background-color: #fff;
    border: 1px solid #000;
+   font-size: smaller;
 }
 
 
