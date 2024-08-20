@@ -540,8 +540,8 @@ progress {
 }
 
 .list-inline-item {
-  display: inline-block;
   padding: 0px;
+  display: contents;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0rem;
